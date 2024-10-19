@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/navGastos">
+    <fragment
+        android:id="@+id/navGastos"
+        android:name="dev.Deivis.toolkitapp.ui.GastosFragment"
+        android:label="Gastos" />
+    <fragment
+        android:id="@+id/navTareas"
+        android:name="dev.Deivis.toolkitapp.ui.TareasFragment"
+        android:label="Tareas" />
+    <fragment
+        android:id="@+id/navEquipos"
+        android:name="dev.Deivis.toolkitapp.ui.EquiposFragment"
+        android:label="Equipos" />
+</navigation>
